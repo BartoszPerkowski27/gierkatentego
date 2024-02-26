@@ -4,7 +4,7 @@ class App:
     def __init__(self):
         self._running = True
         self._display_surf = None
-        self.size = self.weight, self.height = 640, 400
+        self.size = self.weight, self.height = 400, 800
         self.title = "Mining cat 2D game"
 
     def on_init(self):
