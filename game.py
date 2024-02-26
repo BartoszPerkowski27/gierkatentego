@@ -5,7 +5,7 @@ class App:
         self._running = True
         self._display_surf = None
         self.size = self.weight, self.height = 640, 400
-        self.title = "Śląskie Koty"
+        self.title = "Mining cat 2D game"
 
     def on_init(self):
         pygame.init()
